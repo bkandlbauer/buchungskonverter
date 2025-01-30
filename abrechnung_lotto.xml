@@ -1,0 +1,310 @@
+<invoice>
+  <crddbtVersion>2.0</crddbtVersion>
+  <isDuplicate>true</isDuplicate>
+  <isReversal>false</isReversal>
+  <invoiceDate>2024-09-08</invoiceDate>
+  <invoiceNumber>2024_L000181855</invoiceNumber>
+  <yearWeek>36/2024</yearWeek>
+  <from>2024-09-02</from>
+  <to>2024-09-08</to>
+  <contractPartnerId>11298</contractPartnerId>
+  <name>Wolfgang Streissnig</name>
+  <street>Hauptstraße 23</street>
+  <zip>9431</zip>
+  <city>St. Stefan</city>
+  <uid>ATU66836613</uid>
+  <totalAmount>-423493</totalAmount>
+  <drawGame>
+    <salesAmount>-476650</salesAmount>
+    <salesCommission>32296</salesCommission>
+    <payoutAmount>100629</payoutAmount>
+    <payoutCommission>0</payoutCommission>
+    <administrativeFee>-806</administrativeFee>
+    <creditNote>200</creditNote>
+    <advanceNew>100097</advanceNew>
+    <advanceOld>-107871</advanceOld>
+    <totalAmount>-351945</totalAmount>
+    <debitOrderFrom>2024-09-09</debitOrderFrom>
+    <salesBonusBet>300</salesBonusBet>
+    <bonusCommission>0</bonusCommission>
+    <gameCommunityServiceFee>-140</gameCommunityServiceFee>
+  </drawGame>
+  <instantGame>
+    <salesAmount>-72000</salesAmount>
+    <salesCommission>5090</salesCommission>
+    <unsoldTicketsAmount>16000</unsoldTicketsAmount>
+    <unsoldTicketsCommission>-1120</unsoldTicketsCommission>
+    <payoutAmount>23500</payoutAmount>
+    <payoutCommission>210</payoutCommission>
+    <majorPrizeCommission>0</majorPrizeCommission>
+    <totalAmount>-28320</totalAmount>
+    <debitOrderFrom>2024-09-09</debitOrderFrom>
+  </instantGame>
+  <eurobon>
+    <salesAmount>-44000</salesAmount>
+    <salesCommission>2200</salesCommission>
+    <totalAmount>-41800</totalAmount>
+    <debitOrderFrom>2024-09-09</debitOrderFrom>
+  </eurobon>
+  <other>
+    <items>
+      <otherTaxableItem>
+        <description>Kommunikationsentgelt</description>
+        <amountNet>-1190</amountNet>
+        <taxRate>20</taxRate>
+        <tax>-238</tax>
+        <amountGross>-1428</amountGross>
+      </otherTaxableItem>
+    </items>
+    <totalAmountNet>-1190</totalAmountNet>
+    <totalTax>-238</totalTax>
+    <totalAmountGross>-1428</totalAmountGross>
+    <debitOrderFrom>2024-09-09</debitOrderFrom>
+  </other>
+  <locations>
+    <location>
+      <locationId>93656</locationId>
+      <street>Hauptstraße 23</street>
+      <zip>9431</zip>
+      <city>St. Stefan</city>
+      <terminals>
+        <terminal>
+          <terminalId>93656</terminalId>
+          <drawGame>
+            <games>
+              <game>
+                <description>Lotto 6-45</description>
+                <numberOfTickets>166</numberOfTickets>
+                <numberOfBets>1127</numberOfBets>
+                <salesAmount>-169050</salesAmount>
+              </game>
+              <game>
+                <description>Joker</description>
+                <numberOfBets>540</numberOfBets>
+                <salesAmount>-91800</salesAmount>
+              </game>
+              <game>
+                <description>Euromillionen</description>
+                <numberOfTickets>121</numberOfTickets>
+                <numberOfBets>587</numberOfBets>
+                <salesAmount>-146750</salesAmount>
+              </game>
+              <game>
+                <description>Lotto Plus</description>
+                <numberOfBets>933</numberOfBets>
+                <salesAmount>-46650</salesAmount>
+              </game>
+              <game>
+                <description>TopTipp</description>
+                <numberOfTickets>3</numberOfTickets>
+                <numberOfBets>9</numberOfBets>
+                <salesAmount>-900</salesAmount>
+              </game>
+              <game>
+                <description>EuroDreams</description>
+                <numberOfTickets>20</numberOfTickets>
+                <numberOfBets>86</numberOfBets>
+                <salesAmount>-21500</salesAmount>
+              </game>
+            </games>
+            <salesAmount>-476650</salesAmount>
+            <salesCommission>32296</salesCommission>
+            <numberOfPayouts>177</numberOfPayouts>
+            <payoutAmount>100629</payoutAmount>
+            <payoutCommission>0</payoutCommission>
+            <administrativeFee>-806</administrativeFee>
+            <creditNote>200</creditNote>
+            <advanceNew>100097</advanceNew>
+            <advanceOld>-107871</advanceOld>
+            <totalAmount>-351945</totalAmount>
+            <salesBonusBet>300</salesBonusBet>
+            <bonusCommission>0</bonusCommission>
+            <gameCommunityServiceFee>-140</gameCommunityServiceFee>
+          </drawGame>
+          <instantGame>
+            <motifs>
+              <motif>
+                <description>25 fette Jahre</description>
+                <numberOfSoldTickets>90</numberOfSoldTickets>
+                <salesAmount>-27000</salesAmount>
+                <numberOfPayouts>13</numberOfPayouts>
+                <payoutAmount>6500</payoutAmount>
+              </motif>
+              <motif>
+                <description>BL Für Dich</description>
+                <numberOfSoldTickets>50</numberOfSoldTickets>
+                <salesAmount>-5000</salesAmount>
+                <numberOfPayouts>2</numberOfPayouts>
+                <payoutAmount>300</payoutAmount>
+              </motif>
+              <motif>
+                <description>Cash_2EUR</description>
+                <numberOfPayouts>12</numberOfPayouts>
+                <payoutAmount>3600</payoutAmount>
+              </motif>
+              <motif>
+                <description>Casino Palace</description>
+                <numberOfPayouts>2</numberOfPayouts>
+                <payoutAmount>1500</payoutAmount>
+              </motif>
+              <motif>
+                <description>Casino Palace XXL</description>
+                <numberOfPayouts>2</numberOfPayouts>
+                <payoutAmount>1000</payoutAmount>
+              </motif>
+              <motif>
+                <description>Gipfelstürmer</description>
+                <numberOfPayouts>3</numberOfPayouts>
+                <payoutAmount>1200</payoutAmount>
+              </motif>
+              <motif>
+                <description>Kings Cash</description>
+                <numberOfSoldTickets>40</numberOfSoldTickets>
+                <salesAmount>-20000</salesAmount>
+                <numberOfPayouts>3</numberOfPayouts>
+                <payoutAmount>1200</payoutAmount>
+              </motif>
+              <motif>
+                <description>Lucky 7</description>
+                <numberOfPayouts>1</numberOfPayouts>
+                <payoutAmount>300</payoutAmount>
+              </motif>
+              <motif>
+                <description>Lucky Cash</description>
+                <numberOfPayouts>2</numberOfPayouts>
+                <payoutAmount>600</payoutAmount>
+              </motif>
+              <motif>
+                <description>Lucky Diamonds</description>
+                <numberOfUnsoldTickets>20</numberOfUnsoldTickets>
+                <unsoldTicketsAmount>10000</unsoldTicketsAmount>
+              </motif>
+              <motif>
+                <description>Lucky Fish</description>
+                <numberOfPayouts>1</numberOfPayouts>
+                <payoutAmount>300</payoutAmount>
+              </motif>
+              <motif>
+                <description>Lucky in Love</description>
+                <numberOfUnsoldTickets>20</numberOfUnsoldTickets>
+                <unsoldTicketsAmount>6000</unsoldTicketsAmount>
+              </motif>
+              <motif>
+                <description>MBL Panda</description>
+                <numberOfPayouts>4</numberOfPayouts>
+                <payoutAmount>1400</payoutAmount>
+              </motif>
+              <motif>
+                <description>Maximum Cash</description>
+                <numberOfSoldTickets>20</numberOfSoldTickets>
+                <salesAmount>-20000</salesAmount>
+                <numberOfPayouts>2</numberOfPayouts>
+                <payoutAmount>1500</payoutAmount>
+              </motif>
+              <motif>
+                <description>Mega Cash</description>
+                <numberOfPayouts>1</numberOfPayouts>
+                <payoutAmount>500</payoutAmount>
+              </motif>
+              <motif>
+                <description>Schatztruhe_2EUR</description>
+                <numberOfPayouts>2</numberOfPayouts>
+                <payoutAmount>1200</payoutAmount>
+              </motif>
+              <motif>
+                <description>SoBL_10fetteJahre</description>
+                <numberOfPayouts>3</numberOfPayouts>
+                <payoutAmount>800</payoutAmount>
+              </motif>
+              <motif>
+                <description>SuperCash_3EUR</description>
+                <numberOfPayouts>1</numberOfPayouts>
+                <payoutAmount>600</payoutAmount>
+              </motif>
+              <motif>
+                <description>SuperfetteJahre</description>
+                <numberOfPayouts>1</numberOfPayouts>
+                <payoutAmount>500</payoutAmount>
+              </motif>
+              <motif>
+                <description>Tic Tac</description>
+                <numberOfPayouts>1</numberOfPayouts>
+                <payoutAmount>500</payoutAmount>
+              </motif>
+            </motifs>
+            <salesAmount>-72000</salesAmount>
+            <salesCommission>5090</salesCommission>
+            <unsoldTicketsAmount>16000</unsoldTicketsAmount>
+            <unsoldTicketsCommission>-1120</unsoldTicketsCommission>
+            <payoutAmount>23500</payoutAmount>
+            <payoutCommission>210</payoutCommission>
+            <majorPrizeCommission>0</majorPrizeCommission>
+            <totalAmount>-28320</totalAmount>
+            <packActivations>
+              <packActivation>
+                <motifDescription>25 fette Jahre</motifDescription>
+                <seriesId>437</seriesId>
+                <packNumber>128744</packNumber>
+                <ticketsPerPack>90</ticketsPerPack>
+              </packActivation>
+              <packActivation>
+                <motifDescription>BL Für Dich</motifDescription>
+                <seriesId>858</seriesId>
+                <packNumber>121352</packNumber>
+                <ticketsPerPack>50</ticketsPerPack>
+              </packActivation>
+              <packActivation>
+                <motifDescription>Kings Cash</motifDescription>
+                <seriesId>463</seriesId>
+                <packNumber>21388</packNumber>
+                <ticketsPerPack>40</ticketsPerPack>
+              </packActivation>
+              <packActivation>
+                <motifDescription>Maximum Cash</motifDescription>
+                <seriesId>461</seriesId>
+                <packNumber>20182</packNumber>
+                <ticketsPerPack>20</ticketsPerPack>
+              </packActivation>
+            </packActivations>
+          </instantGame>
+          <eurobon>
+            <cardValues>
+              <cardValue>
+                <description>Eurobon 20</description>
+                <numberOfCards>4</numberOfCards>
+                <salesAmount>-8000</salesAmount>
+              </cardValue>
+              <cardValue>
+                <description>Eurobon 30</description>
+                <numberOfCards>2</numberOfCards>
+                <salesAmount>-6000</salesAmount>
+              </cardValue>
+              <cardValue>
+                <description>Eurobon 100</description>
+                <numberOfCards>3</numberOfCards>
+                <salesAmount>-30000</salesAmount>
+              </cardValue>
+            </cardValues>
+            <salesAmount>-44000</salesAmount>
+            <salesCommission>2200</salesCommission>
+            <totalAmount>-41800</totalAmount>
+          </eurobon>
+          <other>
+            <items>
+              <otherTaxableItem>
+                <description>Kommunikationsentgelt</description>
+                <amountNet>-1190</amountNet>
+                <taxRate>20</taxRate>
+                <tax>-238</tax>
+                <amountGross>-1428</amountGross>
+              </otherTaxableItem>
+            </items>
+            <totalAmountNet>-1190</totalAmountNet>
+            <totalTax>-238</totalTax>
+            <totalAmountGross>-1428</totalAmountGross>
+          </other>
+        </terminal>
+      </terminals>
+    </location>
+  </locations>
+</invoice>

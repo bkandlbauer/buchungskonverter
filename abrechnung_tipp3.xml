@@ -1,0 +1,76 @@
+<invoice>
+  <crddbtVersion>2.0</crddbtVersion>
+  <isDuplicate>true</isDuplicate>
+  <isReversal>false</isReversal>
+  <invoiceDate>2024-09-16</invoiceDate>
+  <invoiceNumber>2024_S000123153</invoiceNumber>
+  <yearWeek>37/2024</yearWeek>
+  <from>2024-09-10</from>
+  <to>2024-09-16</to>
+  <contractPartnerId>11298</contractPartnerId>
+  <name>Wolfgang Streissnig</name>
+  <street>Hauptstraße 23</street>
+  <zip>9431</zip>
+  <city>St. Stefan</city>
+  <uid>ATU66836613</uid>
+  <totalAmount>-2083</totalAmount>
+  <drawGame>
+    <salesAmount>-4200</salesAmount>
+    <salesCommission>210</salesCommission>
+    <payoutAmount>0</payoutAmount>
+    <payoutCommission>0</payoutCommission>
+    <administrativeFee>-5</administrativeFee>
+    <creditNote>0</creditNote>
+    <advanceNew>0</advanceNew>
+    <advanceOld>0</advanceOld>
+    <totalAmount>-3654</totalAmount>
+    <debitOrderFrom>2024-09-17</debitOrderFrom>
+    <voucherSales>300</voucherSales>
+    <salesCommissionTax>41</salesCommissionTax>
+    <payoutCommissionTax>0</payoutCommissionTax>
+    <affiliateCommission>1309</affiliateCommission>
+    <affiliateCommissionTax>262</affiliateCommissionTax>
+  </drawGame>
+  <locations>
+    <location>
+      <locationId>93656</locationId>
+      <street>Hauptstraße 23</street>
+      <zip>9431</zip>
+      <city>St. Stefan</city>
+      <terminals>
+        <terminal>
+          <terminalId>93656</terminalId>
+          <drawGame>
+            <games>
+              <game>
+                <description>tipp3-classic</description>
+                <numberOfTickets>4</numberOfTickets>
+                <numberOfBets>8</numberOfBets>
+                <salesAmount>-2800</salesAmount>
+              </game>
+              <game>
+                <description>tipp3-pro</description>
+                <numberOfTickets>1</numberOfTickets>
+                <numberOfBets>7</numberOfBets>
+                <salesAmount>-1400</salesAmount>
+              </game>
+            </games>
+            <salesAmount>-4200</salesAmount>
+            <salesCommission>210</salesCommission>
+            <numberOfPayouts>0</numberOfPayouts>
+            <payoutAmount>0</payoutAmount>
+            <payoutCommission>0</payoutCommission>
+            <administrativeFee>-5</administrativeFee>
+            <creditNote>0</creditNote>
+            <advanceNew>0</advanceNew>
+            <advanceOld>0</advanceOld>
+            <totalAmount>-3654</totalAmount>
+            <voucherSales>300</voucherSales>
+            <salesCommissionTax>41</salesCommissionTax>
+            <payoutCommissionTax>0</payoutCommissionTax>
+          </drawGame>
+        </terminal>
+      </terminals>
+    </location>
+  </locations>
+</invoice>
