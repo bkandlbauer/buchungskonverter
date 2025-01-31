@@ -1,6 +1,6 @@
 ### testing
 
-POST http://127.0.0.1:5001/buchungskonverter/us-central1/on_request_example/lotto
+POST https://buchungskonverter-qgkxq26w4q-uc.a.run.app/lotto
 content-type: application/xml
 
 <invoice>

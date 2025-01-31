@@ -41,7 +41,7 @@ def handle_post_tipp3():
 initialize_app()
 
 @https_fn.on_request(cors=options.CorsOptions(cors_origins="*", cors_methods=["get", "post"]))
-def on_request_example(req: https_fn.Request) -> https_fn.Response:
+def buchungskonverter(req: https_fn.Request) -> https_fn.Response:
     with app.request_context(req.environ):
         return app.full_dispatch_request()
 
