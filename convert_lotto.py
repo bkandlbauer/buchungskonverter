@@ -5,14 +5,12 @@ from decimal import Decimal
 import os
 
 def convert_amount(amount):
-    """Convert the amount from integer (e.g., -6700) to a string in the format "-67,00"."""
     if amount:
         amount = abs(int(amount))
         return f"{amount / 100:.2f}".replace('.', ',')
     return None
 
 def convert_date(date_str):
-    """Convert the date from 'YYYY-MM-DD' to 'DD.MM.YYYY'."""
     if date_str:
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         return date_obj.strftime('%d.%m.%Y')
