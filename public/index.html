@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Buchungskonverter</title>
 </head>
 <body>
@@ -11,138 +12,9 @@
     <div id="dropZone">XML-Abrechnung hinzufügen</div>
     <input type="file" id="fileInput" accept=".xml" style="display: none;">
     <br>
-    <button class="btn" onclick="uploadXML('https://buchungskonverter-qgkxq26w4q-uc.a.run.app/lotto', 'abrechnung_lotto')">Konvertiere Lotto</button>
-    <button class="btn" onclick="uploadXML('https://buchungskonverter-qgkxq26w4q-uc.a.run.app/tipp3', 'abrechnung_tipp3')">Konvertiere Tipp3</button>       
-   <script>
-        const dropZone = document.getElementById("dropZone");
-        const fileInput = document.getElementById("fileInput");
-        let selectedFile = null;
-
-        dropZone.addEventListener("click", () => fileInput.click());
-        dropZone.addEventListener("dragover", (event) => {
-            event.preventDefault();
-            dropZone.classList.add("highlight");
-        });
-        dropZone.addEventListener("dragleave", () => dropZone.classList.remove("highlight"));
-        dropZone.addEventListener("drop", (event) => {
-            event.preventDefault();
-            dropZone.classList.remove("highlight");
-            
-            if (event.dataTransfer.files.length) {
-                selectedFile = event.dataTransfer.files[0];
-                dropZone.textContent = selectedFile.name;
-            }
-        });
-        fileInput.addEventListener("change", () => {
-            if (fileInput.files.length) {
-                selectedFile = fileInput.files[0];
-                dropZone.textContent = selectedFile.name;
-            }
-        });
-
-        async function uploadXML(url, company) {
-            if (!selectedFile) {
-                alert("Bitte zuerst eine Datei auswählen.");
-                return;
-            }
-
-            const reader = new FileReader();
-            reader.onload = async function(event) {
-                const xmlContent = event.target.result;
-
-                try {
-                    const response = await fetch(url, {
-                        method: "POST",
-                        headers: { "Content-Type": "application/xml" },
-                        body: xmlContent
-                    });
-
-                    if (!response.ok) {
-                        throw new Error("Server error: " + (await response.text()));
-                    }
-
-                    const csvData = await response.text();
-                    downloadCSV(csvData, company);
-                } catch (error) {
-                    console.error("Error:", error);
-                    alert("Conversion failed: " + error.message);
-                }
-            };
-            reader.readAsText(selectedFile);
-        }
-
-        function downloadCSV(csvContent, company) {
-            const blob = new Blob([csvContent], { type: "text/csv" });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement("a");
-            a.href = url;
-            a.download = company + ".csv";
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-        }
-    </script>
-
+    <button class="btn" onclick="uploadXML('https://buchungskonverter-qgkxq26w4q-uc.a.run.app/lotto', 'abrechnung_lotto')">Lotto</button>
+    <button class="btn" onclick="uploadXML('https://buchungskonverter-qgkxq26w4q-uc.a.run.app/tipp3', 'abrechnung_tipp3')">Tipp3</button>       
+    
+    <script src="script.js"></script>      
 </body>
-
-<style>
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 90vh;
-    }
-
-    .logo{
-        height: 10%;
-    }
-
-    h2 {
-      font-size: 36px;
-      font-weight: bold;
-      color: grey;
-      position: relative;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    
-    #dropZone {
-        width: 50%;
-        text-align: center;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px dashed #b1b2b2;
-        border-radius: 10px;
-        margin-top: 30px;
-        height: 100px;
-        cursor: pointer;
-    }
-    
-    #dropZone.highlight {
-        background-color: #e3f2fd;
-    }
-
-    .btn {
-      background-color: #d10a10;
-      color: white;
-      width: 30%;
-      padding: 15px 30px;
-      font-size: 16px;
-      border-radius: 50px;
-      border: none;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      margin: 10px;
-    }
-
-    .btn:hover {
-      background-color: #d10a10;
-      transform: translateY(-4px);
-    }
-    </style>
-    
 </html>
